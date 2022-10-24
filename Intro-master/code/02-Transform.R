@@ -5,10 +5,14 @@
 
 ## Baby names data
 
+##This is an annotation for Q5 in HW2
+
 library(ggplot2)
 options(stringsAsFactors = FALSE)
 bnames <- read.csv("data/bnames.csv.bz2")
 births <- read.csv("data/births.csv")
+
+##This is another annotation for good measure
 
 head(bnames)
 tail(bnames)
